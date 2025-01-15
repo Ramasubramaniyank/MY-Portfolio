@@ -1,0 +1,80 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 4rem;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.profile-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.profile-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--neon-pink);
+  box-shadow: 0 0 20px var(--neon-pink);
+}
+
+.neon-text {
+  color: var(--text-color);
+  text-shadow: 0 0 5px var(--text-color),
+               0 0 10px var(--neon-red),
+               0 0 20px var(--neon-red);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.typing-text {
+  color: var(--neon-pink);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  min-height: 2.5rem;
+  font-weight: 600;
+}
+
+.description {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-links a {
+  color: var(--neon-brown);
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--neon-pink);
+  text-shadow: 0 0 10px var(--neon-pink);
+  transform: translateY(-3px);
+}

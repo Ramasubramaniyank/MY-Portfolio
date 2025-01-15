@@ -1,0 +1,79 @@
+.contact-container {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  background-color: var(--bg-color);
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--neon-pink);
+  border-radius: 8px;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px var(--neon-pink);
+}
+
+.submit-btn {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid var(--neon-pink);
+  color: var(--neon-pink);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: var(--neon-pink);
+  color: var(--bg-color);
+  box-shadow: 0 0 15px var(--neon-pink);
+}
+
+.contact-info {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--text-color);
+}
+
+.info-item i {
+  color: var(--neon-pink);
+  font-size: 1.5rem;
+}
+
+.info-item p {
+  font-size: 1.1rem;
+}
